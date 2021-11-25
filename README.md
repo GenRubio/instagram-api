@@ -21,7 +21,7 @@ php artisan migrate
 1) Cofiguracion del usuario se encuntra en:
 ```bash
 App\Services\InstagramUserService.php
-self::$instagramUser = 'titanlux';
+self::$instagramUser = 'gen_rubio';
 ```
 
 2) Obtener los ultimos 12 posts del usuario y guardarlos en la base de datos:
