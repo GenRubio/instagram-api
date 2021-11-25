@@ -2,11 +2,8 @@
 
 namespace App\Console\Commands;
 
-use App\Models\InstagramPost;
 use App\Services\InstagramPostService;
-use Exception;
 use Illuminate\Console\Command;
-use Illuminate\Support\Facades\Http;
 
 class ImportInstagramPosts extends Command
 {
