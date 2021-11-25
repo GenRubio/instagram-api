@@ -1,0 +1,25 @@
+<?php
+
+namespace App\Services;
+
+use App\Http\Controllers\Controller;
+use App\Models\SingularModelName;
+use App\Repositories\SingularModelName\SingularModelNameRepository;
+
+/**
+ * Class SingularModelNameService
+ * @package App\Services\SingularModelName
+ */
+class SingularModelNameService extends Controller
+{
+    protected $SingularVariableNameRepository;
+    /**
+     * SingularModelNameService constructor.
+     * @param SingularModelName $SingularVariableName
+     */
+    public function __construct()
+    {
+        $this->SingularVariableNameRepository = new SingularModelNameRepository();
+    }
+
+}
