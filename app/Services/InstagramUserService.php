@@ -25,7 +25,7 @@ class InstagramUserService extends Controller
     public function __construct()
     {
         self::$disk = 'instagram-imports';
-        self::$instagramUser = 'titanlux';
+        self::$instagramUser = 'gen_rubio';
         self::$fileTimeExpiration = 3600;//Time in second 
         $this->response = $this->getResponseApiData(self::$disk, self::$instagramUser, self::$fileTimeExpiration);
         $this->user = $this->response->graphql->user;
